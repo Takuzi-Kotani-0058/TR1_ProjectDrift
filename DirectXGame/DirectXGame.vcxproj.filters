@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ProjectDrift">
+      <UniqueIdentifier>{df828822-8cf7-49b1-aa78-4fe62f392297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\MainScene">
+      <UniqueIdentifier>{53806793-ac8f-46c4-bf09-6a52a7ea6f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Objects">
+      <UniqueIdentifier>{22680b06-48ad-46eb-a836-9b2f5b7ec0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Objects\PlayerCar">
+      <UniqueIdentifier>{0770ccc1-f942-4b8b-b11c-22be3f13bde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Objects\Axis">
+      <UniqueIdentifier>{00477e6f-c829-470e-a03a-bbef8e2bd9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Objects\ControlInformation">
+      <UniqueIdentifier>{229e78cc-9da4-416b-b103-c06270bf3917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Objects\Field">
+      <UniqueIdentifier>{33100175-44b3-4029-8fa6-3298840ccc46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Objects\CameraController">
+      <UniqueIdentifier>{ad30013c-b61a-43fc-9154-0a3f7ed02089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Math">
+      <UniqueIdentifier>{43a7a73f-7ef0-4ec0-8f6e-ce6fa616ec95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Math\Matrix4x4">
+      <UniqueIdentifier>{10fbcf1d-11a2-4585-82cd-b7ae5f8db58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectDrift\Math\Lerp">
+      <UniqueIdentifier>{b4121d8c-0e29-4888-89d3-be3014437fa9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>ProjectDrift\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCar.cpp">
+      <Filter>ProjectDrift\Objects\PlayerCar</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>ProjectDrift\Objects\Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlInformation.cpp">
+      <Filter>ProjectDrift\Objects\ControlInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>ProjectDrift\Objects\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>ProjectDrift\Objects\CameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMatrix4x4.cpp">
+      <Filter>ProjectDrift\Math\Matrix4x4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lerp.cpp">
+      <Filter>ProjectDrift\Math\Lerp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainScene.h">
+      <Filter>ProjectDrift\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCar.h">
+      <Filter>ProjectDrift\Objects\PlayerCar</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>ProjectDrift\Objects\Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlInformation.h">
+      <Filter>ProjectDrift\Objects\ControlInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>ProjectDrift\Objects\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>ProjectDrift\Objects\CameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMatrix4x4.h">
+      <Filter>ProjectDrift\Math\Matrix4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="Lerp.h">
+      <Filter>ProjectDrift\Math\Lerp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
